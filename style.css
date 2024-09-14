@@ -1,0 +1,334 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+
+.hr {
+        width: 70px;
+        height: 12px;
+        margin-top: 5px;
+        background-color: orangered;
+        border-radius: 6px;
+       
+ }
+
+ 
+    
+
+
+.sidebar {
+    background-color: #ff5e3a;
+    padding: 20px;
+    color: white;
+    width: 250px;
+    position: fixed;
+    height: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    margin-top: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+
+}
+
+.main-content {
+    margin-left: 270px;
+    padding: 80px;
+    flex-grow: 1;
+}
+
+.main-content h1 {
+    font-size: 45px;
+    margin-bottom: 60px;
+    
+}
+
+.highlight {
+    color: #ff5e3a;
+    
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery img {
+    width: calc(33% - 20px);
+    height: auto;
+}
+
+.services, .designers {
+    margin-top: 80px;
+    font-family: Arial, sans-serif;
+    
+    
+}
+
+.services h2, .designers h2 {
+    color: #ff5e3a;
+    margin-bottom: 10px;
+    font-size: 45px;
+}
+
+.services p, .designers p {
+    padding-right: 50px;
+    padding-left: 1px;
+
+}
+
+.designer-profiles {
+    display: flex;
+    gap: 20px;
+}
+
+.designer {
+    text-align:left;
+    border: 1px solid none;
+    width: calc(33% - 15px);
+    height: auto;
+    background:#dce0e3;
+}
+
+.designer h3{
+    padding-left: 15px;
+}
+
+.designer p{
+    padding-left: 15px; 
+}
+
+.designer img {
+    width: 100%;
+    height:auto;
+   
+    margin-bottom: 10px;
+}
+
+.packagess{
+    display: flex;
+    gap: 20px;
+}
+
+
+.Packages h2{
+    color: #ff5e3a;
+    margin-top: 80px;
+    font-size: 45px;
+}
+
+.basic{
+    
+    text-align:center;
+    border: none ;
+    width: calc(50% - 15px);
+    height:fit-content;
+    background:#ebeef0;
+   
+    
+}
+
+.basic-p1{
+    height:60px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #616263;
+    color: aliceblue;
+}
+
+#abc{
+    font-weight:bold ;
+    font-size: 30px;
+    
+}
+
+.basic-p2{
+     height:70px;
+     padding-top: 30px;
+     border-bottom: 0.5px solid #d0d7dd;
+    
+}
+
+.basic-p3{
+   height: 70px;
+   margin-top: 30px;
+}
+
+
+
+
+
+.basic-p{
+    border: 0.1px solid #dce0e3;
+    height:45px;
+    padding-top: 15px;
+    text-align: center;
+    width: auto;
+    border-bottom: 0.5px solid #d0d7dd;
+}
+
+.button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    background: #fff;
+    color: black;
+   
+}
+
+
+
+.pro{
+    
+    text-align:center;
+    border:none ;
+    width: calc(50% - 15px);
+    height:fit-content;
+    background:#ebeef0;
+   
+    
+}
+
+.pro-p1{
+    height:60px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #ff5e3a;
+    color: aliceblue;
+}
+
+.pro-p2{
+    
+     height:70px;
+     padding-top: 30px;
+     border-bottom: 0.5px solid #d0d7dd;
+    
+}
+
+#abcd{
+    font-weight:bold ;
+    font-size: 30px;
+}
+
+.pro-p3{
+   height: 70px;
+   margin-top: 30px;
+}
+
+
+
+
+
+.pro-p{
+    border: 0.1px solid #dce0e3;
+    height:45px;
+    padding-top: 15px;
+    text-align: center;
+    width: auto;
+    border-bottom: 0.5px solid #d0d7dd;
+}
+
+.buttonn{
+    width: 90px;
+    height: 40px;
+    border: none;
+    background: #ff5e3a;
+    color: #ffff;
+   
+}
+
+.contact {
+    width: auto;
+    margin: 50px auto;
+    
+    
+    
+  }
+  
+  h1 {
+    color: #ff5e3a;
+    margin-bottom: 10px;
+    font-size: 45px;
+    
+  }
+  
+  p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width:98.5%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+  
+  textarea {
+    width: 98.5%;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #ff5e3a;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #e0dede;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+  }
+  
+  footer p {
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 13px;
+    float: right;
+    padding-right: 90px;
+  }
